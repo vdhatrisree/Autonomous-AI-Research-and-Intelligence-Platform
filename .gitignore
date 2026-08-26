@@ -1,0 +1,28 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generated data / models / outputs
+data/
+models/
+reports/
+evaluation_reports/
+
+# MLflow
+mlflow.db
+mlruns/
+src/evaluation/mlflow.db
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
